@@ -13,7 +13,7 @@ RUN apt update && apt install -y \
     && rm -rf /var/lib/apt/lists/*
 
 # 暴露端口（顺序无影响）
-EXPOSE 6379 7827
+EXPOSE 7827
 
 # 运行程序
 CMD ["python", "main.py"]
