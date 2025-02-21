@@ -6,7 +6,7 @@ on:
 
 env:
   REGISTRY: registry.cn-hangzhou.aliyuncs.com
-  IMAGE_NAME: ${{ vars.REGISTRY }}/your_namespace/your_repo
+  IMAGE_NAME: ${{ vars.REGISTRY }}/starfishes/starbot
 
 jobs:
   build-and-push:
