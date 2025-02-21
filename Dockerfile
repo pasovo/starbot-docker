@@ -8,4 +8,6 @@ COPY . .
 
 EXPOSE 7827
 
+EXPOSE 6379
+
 CMD ["python", "main.py"]
